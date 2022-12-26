@@ -24,6 +24,7 @@ local config = {
       tabline = 1000,
       winbar = 1000,
     },
+    showtabline = 2,
   },
   sections = {
     lualine_a = { 'mode' },
@@ -41,9 +42,7 @@ local config = {
     lualine_y = {},
     lualine_z = {},
   },
-  tabline = {
-    config = { showmode = 2 },
-  },
+  tabline = {},
   winbar = {},
   inactive_winbar = {},
   extensions = {},
