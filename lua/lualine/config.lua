@@ -42,7 +42,7 @@ local config = {
     lualine_z = {},
   },
   tabline = {
-    showmode = 2,
+    config = { showmode = 2 },
   },
   winbar = {},
   inactive_winbar = {},
