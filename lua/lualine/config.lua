@@ -41,7 +41,9 @@ local config = {
     lualine_y = {},
     lualine_z = {},
   },
-  tabline = {},
+  tabline = {
+    showmode = 2,
+  },
   winbar = {},
   inactive_winbar = {},
   extensions = {},
